@@ -7,8 +7,8 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-	<link rel="stylesheet"href="stylesheets/extra_min_styles.css">
-    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="stylesheets/extra_min_styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -41,17 +41,18 @@
 			
             <div style="margin-bottom: 6px;"> </div>
 			
+			<div class="social-icons">
 			<!-- mail -->
-            <a href="mailto:ije8@pitt.edu" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'email'});" style="margin-right:14px;" data-unsp-sanitized="clean">
+            <a href="mailto:ije8@pitt.edu" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'email'});" data-unsp-sanitized="clean">
                 <i class="fa fa-envelope" style="font-size:32px;"></i>
             </a>
             <!-- Git -->
-            <a href="https://github.com/ibrahim-elshar" onclick="gtag('event', 'click', {'event_category': 'social', 'event_label': 'github'});" style="margin-right:14px;" data-unsp-sanitized="clean">
+            <a href="https://github.com/ibrahim-elshar" onclick="gtag('event', 'click', {'event_category': 'social', 'event_label': 'github'});" data-unsp-sanitized="clean">
                 <i class="fa fa-github" style="font-size:32px;"></i>
             </a>
 			
 		   <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/ibrahim-el-shar-a7ba4b64/" onclick="gtag('event', 'click', {'event_category': 'social', 'event_label': 'linkedin'});" style="margin-right:14px;" data-unsp-sanitized="clean">
+            <a href="https://www.linkedin.com/in/ibrahim-el-shar-a7ba4b64/" onclick="gtag('event', 'click', {'event_category': 'social', 'event_label': 'linkedin'});" data-unsp-sanitized="clean">
                 <i class="fa fa-linkedin" style="font-size:30px;"></i>
             </a>
 			
@@ -59,6 +60,12 @@
             <a href="https://x.com/Ibrahimelshar" onclick="gtag('event', 'click', {'event_category': 'social', 'event_label': 'x'});" data-unsp-sanitized="clean">
                 <i class="fa fa-twitter" style="font-size:32px;"></i>
             </a>
+            
+            <!-- Google Scholar -->
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" onclick="gtag('event', 'click', {'event_category': 'social', 'event_label': 'scholar'});" data-unsp-sanitized="clean">
+                <i class="ai ai-google-scholar" style="font-size:30px;"></i>
+            </a>
+			</div>
 
 		</div>
 
@@ -111,84 +118,100 @@
 		<br>
 		
 		<div id="Publications">
-		<h3>Publications</h3>
+		<h3>Research Publications</h3>
+        <p>Publications in peer-reviewed conferences and journals. My research focuses on reinforcement learning, operations research, and supply chain optimization.</p>
 		
-			<div class='paper_title'> Weakly Coupled Deep Q-Networks </div>	
-			<div class='paper_line'>Ibrahim El Shar, Daniel R. Jiang.</div>
-			<div class='paper_line'><i> Advances in neural information processing systems 37 (NeurIPS 2023)</i>.</div>
-			<!--<div class='paper_line'>&nbsp</div>-->
-			<div class='paper_line'>
-			We propose Weakly Coupled Deep Q-Networks (WCDQN) a new deep RL algorithm for weakly coupled MDPs.</div>
-			<div class='paper_line'>
-			<a href="https://arxiv.org/pdf/2310.18803.pdf">
-			[Paper] </a>
-			<!-- <a href="https://github.com/ibrahim-elshar/LBQL_ICML2020">
-			[Code] </a><a href="https://icml.cc/virtual/2020/poster/6299">
-			[Talk] </a><a href="https://drive.google.com/file/d/1qrkbodphvHQ7sVFTYYZWni_ln3D6xqAe/view?usp=sharing">
-			[Slides] </a> -->
-			</font> </div>
-			
-			<br>
-
-			<div class='paper_title'> Lookahead-Bounded Q-Learning </div>	
-			<div class='paper_line'>Ibrahim El Shar, Daniel R. Jiang.</div>
-			<div class='paper_line'><i>The International Conference on Machine Learning (ICML 2020)</i>.</div>
-			<!--<div class='paper_line'>&nbsp</div>-->
-			<div class='paper_line'>
-			We propose a new provably convergent variant of Q-learning that leverages upper and lower bounds derived using information relaxation techniques.</div>
-			<div class='paper_line'>
-			 <a href="http://proceedings.mlr.press/v119/shar20a.html">
-			 [Paper] </a>
-			<a href="https://github.com/ibrahim-elshar/LBQL_ICML2020">
-			[Code] </a><a href="https://icml.cc/virtual/2020/poster/6299">
-			[Talk] </a><a href="https://drive.google.com/file/d/1qrkbodphvHQ7sVFTYYZWni_ln3D6xqAe/view?usp=sharing">
-			[Slides] </a></font> </div>
-			
-			<br>
-
-			<div class='paper_title'> Multi-Objective Reinforcement Learning for Sustainable Supply Chain Optimization </div>	
-			<div class='paper_line'>Ibrahim El Shar, Haiyan Wang, Chetan Gupta.</div>
-			<div class='paper_line'><i>IEEE International Conference on Automation Science and Engineering (CASE) 2023</i>. </div>
-			<div class='paper_line'>
-			</div>
-
-			<br>
-
-			<div class='paper_title'> Deep Reinforcement Learning toward Robust Multi-echelon Supply Chain Inventory Optimization </div>	
-			<div class='paper_line'>Ibrahim El Shar, Wenhuan Sun, Haiyan Wang, Chetan Gupta.</div>
-			<div class='paper_line'><i>IEEE International Conference on Automation Science and Engineering (CASE) 2022</i>. </div>
-			<div class='paper_line'> This paper is based on my work during my internship at Hitachi America, Ltd. R&D.</div>
-			<div class='paper_line'>
-			</div>
-
-			<!-- <br> -->
-
-			<!-- <div class='paper_title'> Weakly Coupled Deep Q-Networks </div>	
-			<div class='paper_line'>Ibrahim El Shar, Daniel Jiang.</div>
-			<div class='paper_line'><i>Submitted</i>. </div>
-			<div class='paper_line'> We introduce weakly coupled deep Q-networks and weakly coupled Q-learning, reinforcement learning methods designed for weakly coupled MDPs. We employ multiple, simultaneous DQN or Q-learning agents such that each runs on a separate easier subproblem and when combined, they form an upper bound on the action value of the original problem. These dynamic bounds then guide the primary agent toward the optimal policy.</div>
-			<div class='paper_line'>	
-			</div> -->
-
-			<br>
-
-			<div class='paper_title'> Spatial Dynamic Pricing for Shared-Resource Systems</div>	
-			<div class='paper_line'>Ibrahim El Shar, Daniel Jiang.</div>
-			<div class='paper_line'><i>Work in Progress</i>.</div>
-			<div class='paper_line'> We study the problem of spatial dynamic Pricing for a fixed number of shared resources that circulate in a network. For the general network, we show that the optimal value function is concave and for a network composed of two locations, we show that the optimal policy enjoys certain monotonicity and bounded sensitivity properties. We use these results to propose a novel heuristic and a deep reinforcement learning (DRL) algorithm.		
-			</div>
-
-			<br>
-
-			<div class='paper_title'> Continuous inventory control with stochastic and non-stationary Markovian demand </div>	
-			<div class='paper_line'>Walid W. Nasr, Ibrahim El Shar.</div>
-			<div class='paper_line'><i>European Journal of Operational Research, 2018</i>.</div>
-			<div class='paper_line'>
-			 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718302327">[Paper]</a></font> </div>
-
+		<div class="project-card publication-card">
+            <h2>Bound enhanced reinforcement learning system for distribution supply chain management</h2>
+            <p class="project-date">2024</p>
+            <div class="project-description">
+                <p>Haiyan Wang, Atsuki Kiuchi, Hsiu-Khuern Tang, Chetan Gupta, EL-SHAR Ibrahim, SUN Wenhuan</p>
+                <p><i>US Patent App. 18/105,593</i></p>
+                <p>A novel system that combines bound-enhanced reinforcement learning techniques for optimizing distribution supply chain management, using upper and lower bounds of optimal inventory costs with epsilon-greedy exploration in multi-echelon supply chains.</p>
+                <div class="project-links">
+                    <a href="https://patents.google.com/patent/US20240265339A1/en" class="button">Patent</a>
+                </div>
+            </div>
+        </div>
 		
-
-
+		<div class="project-card publication-card">
+            <h2>Weakly Coupled Deep Q-Networks</h2>
+            <p class="project-date">2023</p>
+            <div class="project-description">
+                <p>Ibrahim El Shar, Daniel R. Jiang</p>
+                <p><i>Advances in Neural Information Processing Systems 37 (NeurIPS 2023)</i></p>
+                <p>We propose Weakly Coupled Deep Q-Networks (WCDQN), a new deep RL algorithm for weakly coupled MDPs, where the state and action spaces can be decomposed into nearly independent components with limited interaction.</p>
+                <div class="project-links">
+                    <a href="https://arxiv.org/pdf/2310.18803.pdf" class="button">Paper</a>
+                    <a href="https://github.com/ibrahim-elshar/WCDQN_NeurIPS" class="button">Code</a>
+                </div>
+            </div>
+        </div>
+		
+		<div class="project-card publication-card">
+            <h2>Multi-Objective Reinforcement Learning for Sustainable Supply Chain Optimization</h2>
+            <p class="project-date">2023</p>
+            <div class="project-description">
+                <p>Ibrahim El Shar, Haiyan Wang, Chetan Gupta</p>
+                <p><i>IEEE International Conference on Automation Science and Engineering (CASE) 2023</i></p>
+                <p>An approach to balance economic, environmental, and social objectives in supply chain optimization using multi-objective reinforcement learning.</p>
+                <div class="project-links">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10260354" class="button">Paper</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card publication-card">
+            <h2>Deep Reinforcement Learning toward Robust Multi-echelon Supply Chain Inventory Optimization</h2>
+            <p class="project-date">2022</p>
+            <div class="project-description">
+                <p>Ibrahim El Shar, Wenhuan Sun, Haiyan Wang, Chetan Gupta</p>
+                <p><i>IEEE International Conference on Automation Science and Engineering (CASE) 2022</i></p>
+                <p>This paper is based on my work during my internship at Hitachi America, Ltd. R&D, focusing on inventory optimization in complex supply chains.</p>
+                <div class="project-links">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/9926659" class="button">Paper</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card publication-card">
+            <h2>Spatial Dynamic Pricing for Shared-Resource Systems</h2>
+            <p class="project-date">2022</p>
+            <div class="project-description">
+                <p>Ibrahim El Shar, Daniel Jiang</p>
+                <p><i>Work in Progress</i></p>
+                <p>We study the problem of spatial dynamic pricing for shared resources that circulate in a network. For the general network, we show that the optimal value function is concave and for a network composed of two locations, we show that the optimal policy enjoys certain monotonicity and bounded sensitivity properties. These results inform our novel heuristic and deep reinforcement learning algorithm.</p>
+            </div>
+        </div>
+		
+		<div class="project-card publication-card">
+            <h2>Lookahead-Bounded Q-Learning</h2>
+            <p class="project-date">2020</p>
+            <div class="project-description">
+                <p>Ibrahim El Shar, Daniel R. Jiang</p>
+                <p><i>The International Conference on Machine Learning (ICML 2020)</i></p>
+                <p>A provably convergent variant of Q-learning that leverages upper and lower bounds derived using information relaxation techniques.</p>
+                <div class="project-links">
+                    <a href="http://proceedings.mlr.press/v119/shar20a.html" class="button">Paper</a>
+                    <a href="https://github.com/ibrahim-elshar/LBQL_ICML2020" class="button">Code</a>
+                    <a href="https://icml.cc/virtual/2020/poster/6299" class="button">Talk</a>
+                    <a href="https://drive.google.com/file/d/1qrkbodphvHQ7sVFTYYZWni_ln3D6xqAe/view?usp=sharing" class="button">Slides</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card publication-card">
+            <h2>Continuous inventory control with stochastic and non-stationary Markovian demand</h2>
+            <p class="project-date">2018</p>
+            <div class="project-description">
+                <p>Walid W. Nasr, Ibrahim El Shar</p>
+                <p><i>European Journal of Operational Research, 2018</i></p>
+                <p>This paper addresses inventory control optimization under complex demand patterns with Markovian dynamics and non-stationarity.</p>
+                <div class="project-links">
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718302327" class="button">Paper</a>
+                </div>
+            </div>
+        </div>
 		</div>
 		
         <br> 
@@ -197,39 +220,71 @@
 		<div id="projects">
 		<h3>Projects</h3>
 		
-			<div class='paper_title'> <a href="https://github.com/ibrahim-elshar/Never-Ending-Learning-Imitation-Based-Methods">
-			 Never-Ending Learning - Imitation Based Methods </a></div>	
-			<!--<div class='paper_line'>&nbsp</div>-->
-			<div class='paper_line'>
-			We work in an endless grid-world with the task of collecting valuable items and tools. Collecting rewards efficiently involves taking the shortest path to collect items and having a high level plan that guides the agent and prioritize where to go and what items to collect. We propose a novel greedy heuristic that we compare to Deep Q-networks (DQN), imitation learning and Deep Q-learning from Demonstrations (DQfD).</div>
-			
-			<br>
-			
-			<div class='paper_title'> <a href="https://github.com/ibrahim-elshar/IMDB-Text-Classification">
-			 IMDB Text Classification </a></div>	
-			<!--<div class='paper_line'>&nbsp</div>-->
-			<div class='paper_line'>
-			We propose a novel sentence-based text representation for language classification problems, which we evaluate using the IMDB Movie Review Dataset.</div>
-			
-			<br>
-			
-			<div class='paper_title'> <a href="https://github.com/ibrahim-elshar/Dynamic-Airline-Pricing">
-			 Dynamic Airline Pricing </a></div>	
-			<!--<div class='paper_line'>&nbsp</div>-->
-			<div class='paper_line'>
-			We study the problem of dynamic airline pricing when the customers can return their tickets for a posted price each period. The goal is to optimize the prices to set for flight tickets pt and the value of returned tickets prt at the beginning of each period t.</div>
-			
-			<br>
-			
-			<div class='paper_title'> <a href="https://github.com/ibrahim-elshar/Gracious-Hospital-Case-Study">
-			 Case Study For Gracious University Hospital </a></div>	
-			<!--<div class='paper_line'>&nbsp</div>-->
-			<div class='paper_line'>
-			We study the case: A Prescription for Budget Woes at Gracious University Hospital. We develop a simulation model using Python 3.6 and SymPy 1.4 to come up with an automated dispensing cabinets (s, S) restocking policy that satisfies both patients and hospital personnel requirements.</div>
-
+        <div class="project-card">
+            <h2>Never-Ending Learning - Imitation Based Methods</h2>
+            <p class="project-date">2019-2020</p>
+            <div class="project-description">
+                <p>Developed reinforcement learning and imitation learning methods for an endless grid-world environment with complex reward collection tasks.</p>
+                <ul>
+                    <li>Proposed a novel greedy heuristic algorithm</li>
+                    <li>Compared performance against Deep Q-networks (DQN)</li>
+                    <li>Implemented imitation learning and Deep Q-learning from Demonstrations (DQfD)</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/ibrahim-elshar/Never-Ending-Learning-Imitation-Based-Methods" class="button">Code</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h2>IMDB Text Classification</h2>
+            <p class="project-date">2018-2019</p>
+            <div class="project-description">
+                <p>Developed a novel sentence-based text representation for language classification problems, evaluated using the IMDB Movie Review Dataset.</p>
+                <ul>
+                    <li>Created a new text representation approach</li>
+                    <li>Implemented feature extraction and classification algorithms</li>
+                    <li>Performed comparative analysis against baseline methods</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/ibrahim-elshar/IMDB-Text-Classification" class="button">Code</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h2>Dynamic Airline Pricing</h2>
+            <p class="project-date">2018</p>
+            <div class="project-description">
+                <p>Studied the problem of dynamic airline pricing with ticket return considerations, optimizing both initial ticket pricing and return value policies.</p>
+                <ul>
+                    <li>Formulated as a dynamic programming problem</li>
+                    <li>Developed pricing strategies that maximize revenue</li>
+                    <li>Implemented simulation models to evaluate policy performance</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/ibrahim-elshar/Dynamic-Airline-Pricing" class="button">Code</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h2>Case Study For Gracious University Hospital</h2>
+            <p class="project-date">2018</p>
+            <div class="project-description">
+                <p>Analyzed budget optimization for hospital inventory management, developing a simulation model for automated dispensing cabinets restocking policy.</p>
+                <ul>
+                    <li>Implemented a Python simulation model using SymPy</li>
+                    <li>Designed an optimal (s, S) restocking policy</li>
+                    <li>Balanced patient needs with personnel requirements</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/ibrahim-elshar/Gracious-Hospital-Case-Study" class="button">Code</a>
+                </div>
+            </div>
+        </div>
 		</div>
 		
-
 		<br>
 		<br>	
 		<div id="Misc">
